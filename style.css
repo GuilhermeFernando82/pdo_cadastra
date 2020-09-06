@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.card{
+    background-color: rgba(0,0,0,0.5) !important;
+    height: 570px;
+    margin-left: 36%;
+    margin-top: 7%;
+    width: 500px;
+
+}
+.central{
+    margin-top: 10%;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    margin-top: 20px;
+    font-size: 47px;
+}
+form{
+    text-align: center;
+    margin-top: 5px; 
+}
+form input{
+    border: 1px solid #363636;
+    border-radius: 10px;
+    padding: 7px;
+    margin-bottom: 5px;
+    font-family: 'Noto Serif', serif;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+form input:focus {
+  box-shadow: 0 0 5px   #808080;
+  width: 450px;
+
+}
+input::placeholder {
+  color: #000000;
+  font-size: 1.1em;
+
+}
+#enviar{
+    background-color: #483D8B;
+    width: 87px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40x;
+    cursor: pointer;
+
+}
+#enviar:hover{
+ background-color: #F0F8FF;
+ color: #000000;
+}
